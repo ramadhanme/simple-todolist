@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 body {
 	padding: 2rem;
 	min-height: 70vh;
@@ -106,14 +111,30 @@ body {
 	text-align: left;
 	list-style: none;
 	li {
+		position: relative;
 		padding: 0.5rem 0.5rem;
 		color: hsl(198, 1%, 29%);
 	}
-	li:hover {
+	li span:hover {
 		text-decoration: line-through wavy #bacd84;
+		cursor: pointer;
 	}
 	li::marker {
 		/* content: '✓'; */
 		content: '•';
+	}
+	li.completed {
+		text-decoration: line-through wavy #bacd84;
+	}
+	input[type='Checkbox'] {
+		display: none;
+	}
+	li a {
+		position: absolute;
+		right: 0px;
+		top: 0.5rem;
+	}
+	li a:hover {
+		color: rgb(245, 30, 30);
 	}
 }
