@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Kawaii To Do List</title>
-</head>
-<body>
-    <div class="container">
-        <div class="heading">
-            <h1 class="heading_title">To Do List</h1>
-        </div>
-        <form class="form">
-            <label class="form_label" for="todo">~ Today I need to ~</label>
-            <input class="form_input" type="text" id="todo" required>
-            <button type="submit" class="button"><span>Add</span></button>
-        </form>
-        <div>
-            <ul class="toDoList">
-            </ul>
-        </div>
-    </div>
-    <script src="script.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="images/favicon.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Kawaii To Do List</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="heading">
+				<h1 class="heading_title">To Do List</h1>
+			</div>
+			<form class="form">
+				<label class="form_label" for="todo">~ Today I need to ~</label>
+				<input class="form_input" type="text" id="todo" required />
+				<button type="submit" class="button"><span>Add</span></button>
+			</form>
+			<div class="toDoList_wrapper">
+				<ul class="toDoList">
+					<li>Bermain permainan papan</li>
+					<li>Bermain tic tac toe</li>
+					<li>Minum coklat panas</li>
+					<li>Menyelesaikan puzzle</li>
+					<li>Menonton TV</li>
+				</ul>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>
