@@ -116,17 +116,20 @@ body {
 		color: hsl(198, 1%, 29%);
 	}
 	li span:hover {
-		text-decoration: line-through wavy #bacd84;
+		text-decoration: line-through #bacd84;
 		cursor: pointer;
 	}
 	li::marker {
-		/* content: '✓'; */
 		content: '•';
 	}
 	li.completed {
-		text-decoration: line-through wavy #bacd84;
+		color: #3f3e41b3;
+		text-decoration: line-through #3f3e41b3;
 	}
-	input[type='Checkbox'] {
+	li.completed::marker {
+		content: '✓';
+	}
+	input[type='checkbox'] {
 		display: none;
 	}
 	li a {
