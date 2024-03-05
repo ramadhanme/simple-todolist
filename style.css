@@ -179,3 +179,50 @@ body {
 	width: 100px;
 	height: 100px;
 }
+
+@media screen and (max-width: 768px) {
+	.images_wrapper {
+		bottom: -122px;
+	}
+
+	.images {
+		width: 90px;
+		height: 90px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.images_wrapper {
+		bottom: -112px;
+		padding: 1rem 1.25rem;
+	}
+
+	.images {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.images_wrapper {
+		bottom: -102px;
+		padding: 1rem 1rem;
+	}
+
+	.images {
+		width: 70px;
+		height: 70px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.images_wrapper {
+		bottom: -92px;
+		padding: 1rem 1rem;
+	}
+
+	.images {
+		width: 60px;
+		height: 60px;
+	}
+}
