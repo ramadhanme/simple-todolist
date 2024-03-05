@@ -41,14 +41,15 @@ body {
 .container {
 	width: 100%;
 	height: auto;
-	min-height: 500px;
+	min-height: 400px;
 	max-width: 500px;
 	min-width: 250px;
 	padding: 1rem 2rem;
 	background: var(--color-fill-inverted);
 	background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
 	background-size: 25px 25px;
-	border-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 	box-shadow: 4px 3px 7px 2px var(--color-box-shadow);
 	position: relative;
 }
@@ -155,4 +156,26 @@ body {
 	li a:hover {
 		color: var(--color-danger);
 	}
+}
+
+.images_wrapper {
+	width: 100%;
+	padding: 1rem 0.5rem;
+	background: var(--color-fill-inverted);
+	background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+	background-size: 25px 25px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 4px 8px 7px 2px var(--color-box-shadow);
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: -132px;
+	left: 0;
+	z-index: 0;
+}
+
+.images {
+	width: 100px;
+	height: 100px;
 }
