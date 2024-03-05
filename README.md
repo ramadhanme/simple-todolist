@@ -14,5 +14,5 @@ A kawaii To Do List application built with HTML, CSS, and JavaScript.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/todo-list-app.git
-cd todo-list-app
+git clone https://github.com/ramadhanme/kawaii-to-do-list.git
+cd kawaii-to-do-list
