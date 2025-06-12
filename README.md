@@ -1,6 +1,6 @@
-# To Do List App
+# ToDoList App
 
-A kawaii To Do List application built with HTML, CSS, and JavaScript.
+A simple to do list application built with HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -14,5 +14,5 @@ A kawaii To Do List application built with HTML, CSS, and JavaScript.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ramadhanme/kawaii-to-do-list.git
-cd kawaii-to-do-list
+git clone https://github.com/ramadhanme/simple-todolist.git
+cd simple-todolist
